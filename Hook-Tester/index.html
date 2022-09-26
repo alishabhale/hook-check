@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Javascript Tester
+  
+  <script src="lib/moment.min.js"></script>
+  <script src="lib/moment-timezone-with-data.min.js"></script>
+  <script src="lib/logger-util.js"></script>
+  <script src="lib/apifunction-dev-1.0.0.js"></script>
+
+  <script src="configVariables.js"></script>
+  <script src="hook.js"></script>
+  
+  <script type="text/javascript">
+    hook();
+  </script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <!--<p>
+    <button onclick="getData()">GET Data</button>
+    <button onclick="postData()">POST Data</button>
+    <button onclick="getDateByTimezone()">Get Date By Timezone</button>
+  </p>-->
+  <p>
+    <button onclick="hook()">Execute Hook</button>
+  </p>
+</body>
+
+</html>
